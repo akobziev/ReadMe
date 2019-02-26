@@ -21,10 +21,14 @@ ApiTest is a based on C# and NUnit framwork library for testing of SaaS.Esign AP
 * `Constants.cs`
 > Public static class which contains a set of credentials, passwords, ids etc.
 ---
-* `TestSuites folder`
+* `TestSuites` folder
 > TestSuites folder contains:
 > * `Account_Tests` folder with test of account api methods;
 > * `Package_Tests` folder with test of package api methods;
 > * `SignatureAppearance_Test` folder with test of signature appearance api methods.
 > * `ApiPreconditions.cs` which contains pre\post-conditions methods for tests.
 > ![screenshot_2](https://user-images.githubusercontent.com/45104581/53345095-d06a3680-391c-11e9-82e1-fbec1434ac25.png)
+
+* `TestDocs` folder
+> TestDocs folder contains test documents.
+
