@@ -1,7 +1,14 @@
 # ApiTests
 
 ApiTest is a based on C# and NUnit framwork library for testing of SaaS.Esign API.
+Contains:
+- NUnit;
+- RestSharp;
+- Newtonsoft.Json
+- NLog;
 
+## Esign API methods documentation
+Navigate to [ESign documentation](https://stage-api-esign.sodapdf.com/swagger/ui/index#/) where you'll found all needed documentation;
 
 ## Deployment on local machine
 
@@ -32,3 +39,20 @@ ApiTest is a based on C# and NUnit framwork library for testing of SaaS.Esign AP
 * `TestDocs` folder
 > TestDocs folder contains test documents.
 
+* `SignCeremony` folder
+> SignCeremony folder contains classes which are taking a part in generating a SignSession json object.
+
+* `Requests` folder
+> Requests folder contains classes which are taking a part in sending of get\post\put\delete http request to Esign service.
+
+* `JsonGenerator` folder
+> JsonGenerator folder contains classes which are responsible for Esign elements (Signer, Acceptor etc.)
+
+* `FilesToUpload` folder
+> FilesToUpload folder contains files for uploading.
+
+* `FilesToUpload` folder
+> FilesToUpload folder contains files for uploading.
+
+* `Enum` folder
+> Enum folder contains AttachStatus\PackageStatus enums.
