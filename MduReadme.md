@@ -33,4 +33,4 @@ To create test data in DB this framework uses Nuts.Autotests.MasterData.Cache in
 * `PatternMessage.cs`
 > Public class which contains the error messages for checking.
 * `MduBaseTests.cs`
-> Public abstract base class which create test data if it need to be done and contains one help method to check MduResponse.
+> Public abstract base class which creates test data if it need to be done and contains one help method to check MduResponse.
