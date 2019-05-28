@@ -3,6 +3,7 @@
 MasterData Api retrieves master data update history.
 
 MDU microservice autotest framework is a based on C# and NUnit library for testing of MasterData Api.
+To create test data in DB this framework uses Nuts.Autotests.MasterData.Cache instead of Sql requests.
 
 ## MasterData Api Swagers:
 - [MasterData Api Test1](http://mdu.test1.nutsservices.local/index.html)
@@ -13,6 +14,7 @@ MDU microservice autotest framework is a based on C# and NUnit library for testi
 - NUnit framework;
 - Newtonsoft.Json;
 - EntityFramework;
+- Microsoft.EntityFrameworkCore (version: 2.1.8);
 - Nuts.ApiClient;
 - Nuts.MasterData.Contract;
 - Nuts.Validation;
@@ -24,5 +26,11 @@ MDU microservice autotest framework is a based on C# and NUnit library for testi
 
 * `IMduHistoryComparer.cs`
 > Public interface which contains a `Compare` method which implements in `MduHistoryComparer.cs` class.
-* `IMduHistoryComparer.cs`
-> Public interface which contains a `Compare` method which implements in `MduHistoryComparer.cs` class.
+* `MduHistoryComparer.cs`
+> Public class which implements a `Compare` method to campare pattern with actual result.
+* `NutsHttpClient.cs`
+> Public class which realizes the http requests sending.
+* `PatternMessage.cs`
+> Public class which contains the error messages for checking.
+* `MduBaseTests.cs`
+> Public abstract base class which create test data if it need to be done and contains one help method to check MduResponse.
