@@ -6,9 +6,9 @@ CCU microservice autotest framework is a based on C# and NUnit library for testi
 To create and clean test data in DB this framework uses Nuts.Autotests.CommercialCharacteristic.Sql.
 
 ## MasterData Api Swagers:
-- [MasterData Api Test1](http://ccu.test1.nutsservices.local)
-- [MasterData Api Acc1](http://ccu.acc1.nutsservices.local)
-- [MasterData Api Acc3](http://ccu.acc3.nutsservices.local)
+- [CommercialCharacteristic Api Test1](http://ccu.test1.nutsservices.local)
+- [CommercialCharacteristic Api Acc1](http://ccu.acc1.nutsservices.local)
+- [CommercialCharacteristic Api Acc3](http://ccu.acc3.nutsservices.local)
 
 ## Project's dependences:
 - NUnit framework;
